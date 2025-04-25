@@ -2,13 +2,15 @@
   "name": "class_2",
   "version": "1.0.0",
   "description": "\"Second class where we are learning bundlers and thier importance in building a production ready app\"",
-  
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "author": "Rush",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.26.10",
     "parcel": "^2.14.4"
   },
   "dependencies": {

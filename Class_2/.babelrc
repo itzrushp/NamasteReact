@@ -1,0 +1,11 @@
+// without options (basically all kinds of console will be removed)
+// {
+//     "plugins": ["transform-remove-console"]
+// }
+
+// with options (only error and warn will be kept)
+{
+    "plugins": [
+        ["transform-remove-console", { "exclude": ["error", "warn"] }]
+    ]
+}
