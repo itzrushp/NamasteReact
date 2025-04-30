@@ -5,9 +5,9 @@
   "license": "ISC",
   "author": "Rush",
   "type": "commonjs",
-
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "parcel index.html"
   },
   "devDependencies": {
     "parcel": "^2.14.4"
