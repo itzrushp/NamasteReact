@@ -41,11 +41,3 @@ const Header = () => {
 
 export default Header;
 
-export const Footer = () => {
-    return (
-        <div className="footer">
-            <h2>Footer</h2>
-            <p>All rights reserved &copy; 2023</p>
-        </div>
-    )
-}
