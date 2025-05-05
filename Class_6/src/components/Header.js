@@ -40,3 +40,9 @@ const Header = () => {
 }
 
 export default Header;
+
+const heading1=()=>{
+    return(
+        <h1>Food Villa</h1>
+    )
+}
